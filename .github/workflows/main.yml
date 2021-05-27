@@ -1,0 +1,32 @@
+name: Compile PDFs
+
+# Compile new PDFs on any push event
+on:
+  push:
+    branches:
+        - "master"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: texlive/texlive
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      # Use included Makefile
+      - name: Compile
+        run: make
+
+      # Upload new PDFs as a new release
+      - name: Release
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: ${{ github.token }}
+          automatic_release_tag: "latest"
+          files: |
+            examples/cv.pdf
+            examples/resume.pdf
+            examples/coverletter.pdf
