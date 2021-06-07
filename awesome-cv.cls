@@ -89,8 +89,6 @@
   pdfsubject={},
   pdfkeywords={}
 }
-% better encoding for '~' literal
-\usepackage[T1]{fontenc}
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
