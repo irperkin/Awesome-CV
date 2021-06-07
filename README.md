@@ -1,6 +1,6 @@
 <h1 align="center">
-  <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
-    <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
+  <a href="https://github.com//Awesome-CV" title="AwesomeCV Documentation">
+    <img alt="AwesomeCV" src="https://github.com/irperkin/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
   </a>
   <br />
   Awesome CV
@@ -11,19 +11,16 @@
 </p>
 
 <div align="center">
-  <a href="https://www.paypal.me/posquit0">
-    <img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-blue.svg" />
+  <a href="https://github.com/irperkin/Awesome-CV/actions/workflows/main.yml">
+    <img src="https://github.com/irperkin/Awesome-CV/actions/workflows/main.yml/badge.svg">
   </a>
-  <a href="https://circleci.com/gh/posquit0/Awesome-CV">
-    <img alt="CircleCI" src="https://circleci.com/gh/posquit0/Awesome-CV.svg?style=shield" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf">
+  <a href="https://github.com/irperkin/Awesome-CV/blob/master/examples/resume.pdf">
     <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
   </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
+  <a href="https://github.com/irperkin/Awesome-CV/blob/master/examples/cv.pdf">
     <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
   </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf">
+  <a href="https://github.com/irperkin/Awesome-CV/blob/master/examples/coverletter.pdf">
     <img alt="Example Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
   </a>
 </div>
@@ -35,35 +32,21 @@
 **Awesome CV** is LaTeX template for a **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv). It is easy to customize your own template, especially since it is really written by a clean, semantic markup.
 
 
-## Donate
-
-Please help keep this project alive! Donations are welcome and will go towards further development of this project.
-
-    PayPal: paypal.me/posquit0
-    BTC: 1Je3DxJVM2a9nTVPNo55SfQwpmxA6N2KKb
-    BCH: 1Mg1wG7PwHGrHYSWS67TsGSjo5GHEVbF16
-    ETH: 0x77ED9B4659F80205E9B9C9FB1E26EDB9904AFCC7
-    QTUM: QZT7D6m3QtTTqp7s4ZWAwLtGDsoHMMaM8E
-
 *Thank you for your support!*
 
 ## Preview
 
 #### Résumé
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)
-
-| Page. 1 | Page. 2 |
+| Page 1 | Page 2 |
 |:---:|:---:|
 | [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
 
 #### Cover Letter
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
-
-| Without Sections | With Sections |
+| With Sections | Without Sections |
 |:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf) |
+| [![Cover Letter(Awesome)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf) | [![Cover Letter(Traditional)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf) |
 
 
 ## Quick Start
@@ -74,7 +57,7 @@ You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/e
 **_Note:_ Above services do not guarantee up-to-date source code of Awesome CV**
 
 
-## How to Use
+## How to Use Locally
 
 #### Requirements
 
@@ -83,14 +66,7 @@ You can [install TeX from upstream](http://tex.stackexchange.com/q/1092) (recomm
 
 #### Usage
 
-At a command prompt, run
-
-```bash
-$ xelatex {your-cv}.tex
-```
-
-This should result in the creation of ``{your-cv}.pdf``
-
+To compile manually, use ``xelatex {your-cv}.tex`` in your command prompt. This should result in the creation of ``{your-cv}.pdf``. Alternatively, Github will automatically generate your new PDFs after each push. This can be found by going to "releases".
 
 ## Credit
 
@@ -109,8 +85,15 @@ You are free to take my `.tex` file and modify it to create your own resume. Ple
 
 If you have any questions, feel free to join me at [`#posquit0` on Freenode](irc://irc.freenode.net/posquit0) and ask away. Click [here](https://kiwiirc.com/client/irc.freenode.net/posquit0) to connect.
 
-Good luck!
+## Donate
 
+Please help keep this project alive! Donations are welcome and will go towards further development of this project.
+
+    PayPal: paypal.me/posquit0
+    BTC: 1Je3DxJVM2a9nTVPNo55SfQwpmxA6N2KKb
+    BCH: 1Mg1wG7PwHGrHYSWS67TsGSjo5GHEVbF16
+    ETH: 0x77ED9B4659F80205E9B9C9FB1E26EDB9904AFCC7
+    QTUM: QZT7D6m3QtTTqp7s4ZWAwLtGDsoHMMaM8E
 
 ## See Also
 
