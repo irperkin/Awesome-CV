@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1680817863 "examples/resume.xdv" "examples/resume.pdf" "examples/resume" 1680817864 0
-  "examples/resume.xdv" 1680817863 45796 46786e097ed256f18e9c0a0757102fa1 "xelatex"
+["xdvipdfmx"] 1680818690 "examples/resume.xdv" "examples/resume.pdf" "examples/resume" 1680818691 0
+  "examples/resume.xdv" 1680818690 46544 c774f3cfcdae5ba5cf5b3e2931ed16c1 "xelatex"
   (generated)
   "examples/resume.pdf"
   (rewritten before read)
-["xelatex"] 1680817860 "examples/resume.tex" "examples/resume.xdv" "resume" 1680817864 0
+["xelatex"] 1680818686 "examples/resume.tex" "examples/resume.xdv" "resume" 1680818691 0
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -173,10 +173,10 @@
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1680813743 10503776 d16eb4f8bc91d7452f4518d736200fa6 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "examples/awesome-cv.cls" 1680810242 28882 4df5ad4ba593bb2311de3ff1e9af7e4c ""
-  "examples/resume.aux" 1680817863 464 4a44ff79e847885633a5b1d8ff00c655 "xelatex"
+  "examples/resume.aux" 1680818690 464 4a44ff79e847885633a5b1d8ff00c655 "xelatex"
   "examples/resume.tex" 1680817407 3656 9c83cee8ae2f1d2bd1eadb4615a7c26f ""
   "examples/resume/education.tex" 1674505110 848 161dfdb29084810c2c76ec2bbac5666f ""
-  "examples/resume/experience.tex" 1680806846 4601 c92a8006b3f78fcb27ff14bc89b3ea29 ""
+  "examples/resume/experience.tex" 1680817960 4545 a41c0105aa4e757a231b1d476f7aaba7 ""
   "examples/resume/writing.tex" 1673909325 1067 9c709048dd00224ea03e46aa587477e0 ""
   (generated)
   "examples/resume.aux"

@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1680817855 "examples/cv.xdv" "examples/cv.pdf" "examples/cv" 1680817856 0
-  "examples/cv.xdv" 1680817855 42320 5eed86a1df86aa9580412d70ddc3de79 "xelatex"
+["xdvipdfmx"] 1680818680 "examples/cv.xdv" "examples/cv.pdf" "examples/cv" 1680818681 0
+  "examples/cv.xdv" 1680818680 50564 d65834b5fd8fcfd65266b12dbcf9a8c5 "xelatex"
   (generated)
   "examples/cv.pdf"
   (rewritten before read)
-["xelatex"] 1680817851 "examples/cv.tex" "examples/cv.xdv" "cv" 1680817856 0
+["xelatex"] 1680818676 "examples/cv.tex" "examples/cv.xdv" "cv" 1680818681 0
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -173,10 +173,10 @@
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1680813743 10503776 d16eb4f8bc91d7452f4518d736200fa6 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "examples/awesome-cv.cls" 1680810242 28882 4df5ad4ba593bb2311de3ff1e9af7e4c ""
-  "examples/cv.aux" 1680817855 464 4a44ff79e847885633a5b1d8ff00c655 "xelatex"
-  "examples/cv.tex" 1680806944 3547 69b2662870c2f3de498c112ef238594c ""
+  "examples/cv.aux" 1680818680 464 642272556978b40963ab6b3ab7eb02a2 "xelatex"
+  "examples/cv.tex" 1680818139 3547 69b2662870c2f3de498c112ef238594c ""
   "examples/cv/education.tex" 1673909325 862 a204fe743f5721c6a92593ad121243fc ""
-  "examples/cv/experience.tex" 1680815104 3678 6530619a1d34d1779f467c9dffd85a99 ""
+  "examples/cv/experience.tex" 1680817960 4601 927684acefa3e41fd4861d92fa44c912 ""
   "examples/cv/skills.tex" 1680546187 1027 8ae9362a009881728ce18ac76bf666f3 ""
   "examples/cv/writing.tex" 1680815150 1062 8dd3d46681f0b6caede2bfd1afb8eb47 ""
   (generated)

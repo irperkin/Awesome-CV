@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1680817846 "examples/coverletter.xdv" "examples/coverletter.pdf" "examples/coverletter" 1680817847 0
-  "examples/coverletter.xdv" 1680817846 24532 cc30d4096c9957a02e994fca80956dcc "xelatex"
+["xdvipdfmx"] 1680818671 "examples/coverletter.xdv" "examples/coverletter.pdf" "examples/coverletter" 1680818672 0
+  "examples/coverletter.xdv" 1680818671 25612 93db775946cca4803bb5eddd3fef01d7 "xelatex"
   (generated)
   "examples/coverletter.pdf"
   (rewritten before read)
-["xelatex"] 1680817843 "examples/coverletter.tex" "examples/coverletter.xdv" "coverletter" 1680817847 0
+["xelatex"] 1680818667 "examples/coverletter.tex" "examples/coverletter.xdv" "coverletter" 1680818672 0
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -173,8 +173,8 @@
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1680813743 10503776 d16eb4f8bc91d7452f4518d736200fa6 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "examples/awesome-cv.cls" 1680810242 28882 4df5ad4ba593bb2311de3ff1e9af7e4c ""
-  "examples/coverletter.aux" 1680817846 464 4a44ff79e847885633a5b1d8ff00c655 "xelatex"
-  "examples/coverletter.tex" 1680814156 5679 ee8e90292ffd5e12ca2f36de2325d682 ""
+  "examples/coverletter.aux" 1680818671 464 4a44ff79e847885633a5b1d8ff00c655 "xelatex"
+  "examples/coverletter.tex" 1680818530 5764 320cf4a9ed0bd0cc41f41c22f46f66e8 ""
   (generated)
   "examples/coverletter.aux"
   "examples/coverletter.log"
