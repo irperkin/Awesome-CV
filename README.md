@@ -14,7 +14,10 @@
   <a href="https://github.com/irperkin/Awesome-CV/actions/workflows/main.yml">
     <img src="https://github.com/irperkin/Awesome-CV/actions/workflows/main.yml/badge.svg">
   </a>
-  <a href="https://github.com/irperkin/Awesome-CV/blob/master/examples/resume.pdf">
+  <a href="https://github.com/irperkin/Awesome-CV/actions/workflows/main.yml">
+    <img alt="GitHub Actions" src="https://github.com/posquit0/Awesome-CV/actions/workflows/main.yml/badge.svg" />
+  </a>
+  <a href="https://raw.githubusercontent.com/irperkin/Awesome-CV/master/examples/resume.pdf">
     <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
   </a>
   <a href="https://github.com/irperkin/Awesome-CV/blob/master/examples/cv.pdf">
@@ -59,15 +62,30 @@
 ### Requirements
 
 A full TeX distribution is assumed.  [Various distributions for different operating systems (Windows, Mac, \*nix) are available](http://tex.stackexchange.com/q/55437) but TeX Live is recommended.
-You can [install TeX from upstream](http://tex.stackexchange.com/q/1092) (recommended; most up-to-date) or use `sudo apt-get install texlive-full` if you really want that.  (It's generally a few years behind.)
+You can [install TeX from upstream](https://tex.stackexchange.com/q/1092) (recommended; most up-to-date) or use `sudo apt-get install texlive-full` if you really want that.  (It's generally a few years behind.)
+
+If you don't want to install the dependencies on your system, this can also be obtained via [Docker](https://docker.com).
 
 #### Usage
 
-To compile manually, use ``xelatex {your-cv}.tex`` in your command prompt. This should result in the creation of ``{your-cv}.pdf``. Alternatively, Github will automatically generate your new PDFs after each push. This can be found by going to "releases".
+At a command prompt, run
+
+```bash
+xelatex {your-cv}.tex
+```
+
+Or using docker:
+
+```bash
+docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc thomasweise/texlive make
+```
+
+In either case, this should result in the creation of ``{your-cv}.pdf``
+
 
 ## Credit
 
-[**LaTeX**](http://www.latex-project.org) is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
+[**LaTeX**](https://www.latex-project.org) is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
 
 [**LaTeX FontAwesome**](https://github.com/furl/latex-fontawesome) is bindings for FontAwesome icons to be used in XeLaTeX.
 
@@ -90,6 +108,11 @@ Please help keep this project alive! Donations are welcome and will go towards f
     BCH: 1Mg1wG7PwHGrHYSWS67TsGSjo5GHEVbF16
     ETH: 0x77ED9B4659F80205E9B9C9FB1E26EDB9904AFCC7
     QTUM: QZT7D6m3QtTTqp7s4ZWAwLtGDsoHMMaM8E
+
+## Maintainers
+- [posquit0](https://github.com/posquit0)
+- [OJFord](https://github.com/OJFord)
+
 
 ## See Also
 
