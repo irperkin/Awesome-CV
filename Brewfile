@@ -1,0 +1,2 @@
+cask 'mactex'
+brew 'latexindent'
